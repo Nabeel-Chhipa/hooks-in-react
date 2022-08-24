@@ -1,12 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-
+import UseStateHook from './Hooks/UseStateHook'
 function App() {
   return (
     <div>
-      <button>-</button>
-      <span>0</span>
-      <button>+</button>
+      <UseStateHook />
     </div>
   );
 }
